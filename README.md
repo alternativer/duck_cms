@@ -1,4 +1,4 @@
-# Beacon
+# DuckCMS
 
 > Performance without compromising productivity.
 
@@ -6,38 +6,38 @@ Beacon is a content management system (CMS) built with Phoenix LiveView. It brin
 
 ## Guides
 
-Check out the [guides](https://github.com/BeaconCMS/beacon/tree/main/guides) to get started:
+Check out the [guides](https://github.com/DuckCMSCMS/DuckCMS/tree/main/guides) to get started:
 
-* [Installation](https://github.com/BeaconCMS/beacon/blob/main/guides/introduction/installation.md) to get your first site up and running
-* [API](https://github.com/BeaconCMS/beacon/blob/main/guides/introduction/api.md) to enable the Beacon API
-* [Deployment on Fly.io](https://github.com/BeaconCMS/beacon/blob/main/guides/deployment/fly.md) to deploy your site on Fly.io
+* [Installation](https://github.com/DuckCMSCMS/DuckCMS/blob/main/guides/introduction/installation.md) to get your first site up and running
+* [API](https://github.com/DuckCMSCMS/DuckCMS/blob/main/guides/introduction/api.md) to enable the DuckCMS API
+* [Deployment on Fly.io](https://github.com/DuckCMSCMS/DuckCMS/blob/main/guides/deployment/fly.md) to deploy your site on Fly.io
 
 ## Demo
 
-A sample application running latest Beacon is available at https://github.com/BeaconCMS/beacon_demo
+A sample application running latest DuckCMS is available at https://github.com/DuckCMSCMS/DuckCMS_demo
 
 ## Status
 
 Pre-release version. You can expect incomplete features and breaking changes before a stable v0.1.0 is released.
 
 Main components:
-- Core - A functional website can be built and deployed by inserting components in database and running a server, see https://github.com/BeaconCMS/beacon_demo
-- Admin - LiveView UI to manage layouts, pages, and all other resources. See https://github.com/BeaconCMS/beacon_live_admin
+- Core - A functional website can be built and deployed by inserting components in database and running a server, see https://github.com/DuckCMSCMS/DuckCMS_demo
+- Admin - LiveView UI to manage layouts, pages, and all other resources. See https://github.com/DuckCMSCMS/DuckCMS_live_admin
 - Page Builder - An easy to use, drag & drop UI for building pages, targeted to non-technical users. Not released yet, in the initial stages of development.
 
 ## Contributing
 
-Check out the [CONTRIBUTING.md](https://github.com/BeaconCMS/beacon/blob/main/CONTRIBUTING.md) doc for overall guidelines to contribute to this project,
-then follow the [Local Development](https://github.com/BeaconCMS/beacon#local-development) steps to run a local project or watch the video below to understand more
-about Beacon internals:
+Check out the [CONTRIBUTING.md](https://github.com/DuckCMSCMS/DuckCMS/blob/main/CONTRIBUTING.md) doc for overall guidelines to contribute to this project,
+then follow the [Local Development](https://github.com/DuckCMSCMS/DuckCMS#local-development) steps to run a local project or watch the video below to understand more
+about DuckCMS internals:
 
 <a href="https://www.youtube.com/watch?v=5jk0fIJOFuc">
-  <img src="https://raw.githubusercontent.com/BeaconCMS/beacon/main/assets/images/youtube_card.png" width="512" alt="YouTube card - ElixirConf 2023 - Leandro Pereira - Beacon: The next generation of CMS in Phoenix LiveView">
+  <img src="https://raw.githubusercontent.com/DuckCMSCMS/DuckCMS/main/assets/images/youtube_card.png" width="512" alt="YouTube card - ElixirConf 2023 - Leandro Pereira - DuckCMS: The next generation of CMS in Phoenix LiveView">
 </a>
 
 ## Local Development
 
-The file `dev.exs` is a self-contained Phoenix application running Beacon with sample data and code reloading enabled. Follow these steps to get a site up and running:
+The file `dev.exs` is a self-contained Phoenix application running DuckCMS with sample data and code reloading enabled. Follow these steps to get a site up and running:
 
 1. Install dependencies, build assets, and run database setup:
 
@@ -54,7 +54,7 @@ On Ubuntu look for the `build_essential` package, on macOS install utilities wit
 iex --sname core -S mix dev
 ```
 
-Note that running a named node isn't required unless you're running Beacon LiveAdmin too.
+Note that running a named node isn't required unless you're running DuckCMS LiveAdmin too.
 
 Finally, visit any of the routes defined in `dev.exs` as http://localhost:4001/dev/home
 or request resources from the API as http://localhost:4001/api/pages
