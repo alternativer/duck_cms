@@ -2,19 +2,7 @@
 
 > Performance without compromising productivity.
 
-Beacon is a content management system (CMS) built with Phoenix LiveView. It brings the rendering speed benefits of Phoenix to even the most content-heavy pages with faster render times to boost SEO performance.
-
-## Guides
-
-Check out the [guides](https://github.com/DuckCMSCMS/DuckCMS/tree/main/guides) to get started:
-
-* [Installation](https://github.com/DuckCMSCMS/DuckCMS/blob/main/guides/introduction/installation.md) to get your first site up and running
-* [API](https://github.com/DuckCMSCMS/DuckCMS/blob/main/guides/introduction/api.md) to enable the DuckCMS API
-* [Deployment on Fly.io](https://github.com/DuckCMSCMS/DuckCMS/blob/main/guides/deployment/fly.md) to deploy your site on Fly.io
-
-## Demo
-
-A sample application running latest DuckCMS is available at https://github.com/DuckCMSCMS/DuckCMS_demo
+DuckCMS is a content management system (CMS) built with Phoenix LiveView. It brings the rendering speed benefits of Phoenix to even the most content-heavy pages with faster render times to boost SEO performance.
 
 ## Status
 
@@ -24,16 +12,6 @@ Main components:
 - Core - A functional website can be built and deployed by inserting components in database and running a server, see https://github.com/DuckCMSCMS/DuckCMS_demo
 - Admin - LiveView UI to manage layouts, pages, and all other resources. See https://github.com/DuckCMSCMS/DuckCMS_live_admin
 - Page Builder - An easy to use, drag & drop UI for building pages, targeted to non-technical users. Not released yet, in the initial stages of development.
-
-## Contributing
-
-Check out the [CONTRIBUTING.md](https://github.com/DuckCMSCMS/DuckCMS/blob/main/CONTRIBUTING.md) doc for overall guidelines to contribute to this project,
-then follow the [Local Development](https://github.com/DuckCMSCMS/DuckCMS#local-development) steps to run a local project or watch the video below to understand more
-about DuckCMS internals:
-
-<a href="https://www.youtube.com/watch?v=5jk0fIJOFuc">
-  <img src="https://raw.githubusercontent.com/DuckCMSCMS/DuckCMS/main/assets/images/youtube_card.png" width="512" alt="YouTube card - ElixirConf 2023 - Leandro Pereira - DuckCMS: The next generation of CMS in Phoenix LiveView">
-</a>
 
 ## Local Development
 
@@ -58,12 +36,3 @@ Note that running a named node isn't required unless you're running DuckCMS Live
 
 Finally, visit any of the routes defined in `dev.exs` as http://localhost:4001/dev/home
 or request resources from the API as http://localhost:4001/api/pages
-
-## Looking for help with your Elixir project?
-
-<img src="assets/images/dockyard_logo.png" width="256" alt="DockYard logo">
-
-At DockYard we are [ready to help you build your next Elixir project](https://dockyard.com/phoenix-consulting).
-We have a unique expertise in Elixir and Phoenix development that is unmatched and we love to [write about Elixir](https://dockyard.com/blog/categories/elixir).
-
-Have a project in mind? [Get in touch](https://dockyard.com/contact/hire-us)!
