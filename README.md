@@ -10,8 +10,8 @@ DuckCMS is a content management system (CMS) built with Phoenix LiveView. It bri
 Pre-release version. You can expect incomplete features and breaking changes before a stable v0.1.0 is released.
 
 Main components:
-- Core - A functional website can be built and deployed by inserting components in database and running a server, see https://github.com/DuckCMSCMS/DuckCMS_demo
-- Admin - LiveView UI to manage layouts, pages, and all other resources. See https://github.com/DuckCMSCMS/DuckCMS_live_admin
+- Core - A functional website can be built and deployed by inserting components in database and running a server
+- Admin - LiveView UI to manage layouts, pages, and all other resources. 
 - Page Builder - An easy to use, drag & drop UI for building pages, targeted to non-technical users. Not released yet, in the initial stages of development.
 
 ## Local Development
